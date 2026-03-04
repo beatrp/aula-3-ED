@@ -5,7 +5,7 @@ int main() {
     int n;
     int soma = 0;
 
-    cout << "Digite um numero inteiro positivo: ";
+    cout << "Digite um numero que seja inteiro e positivo: ";
     cin >> n;
 
     if (n > 0) {
@@ -14,9 +14,9 @@ int main() {
         }
 
         cout << "A soma dos numeros inteiros positivos ate " 
-             << n << " eh: " << soma << endl;
+             << n << " seria de: " << soma << endl;
     } else {
-        cout << "Por favor, digite um numero positivo." << endl;
+        cout << "Por favor, digite um numero inteiro e positivo." << endl;
     }
 
     return 0;
